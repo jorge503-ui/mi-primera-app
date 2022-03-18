@@ -9,13 +9,13 @@ import { Component } from '@angular/core';
 export class PersonasComponent{
     desahabilitar = false;
     mensaje = 'No se ha agregado ninguna persona';
-    titulo = '';
+    titulo = 'NSH';
 
     agregarPersona(){
         this.mensaje='Persona agregada'
     }
 
-    modificarTitulo(event: Event){
+    /*modificarTitulo(event: Event){
         this.titulo = (<HTMLInputElement>event.target).value;
-    }
+    }*/
 }
